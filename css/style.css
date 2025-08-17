@@ -355,10 +355,8 @@ input[type="checkbox"]:checked+.privacy-label .custom-checkbox {
 .contacts-address {
     display: none;
 }
-.feature-icon {
-    display: none;
-}
-@media screen and (min-width: 767px) {
+
+@media screen and (max-width: 767px) {
     .burger-btn {
             display: none;
         }
@@ -366,6 +364,9 @@ input[type="checkbox"]:checked+.privacy-label .custom-checkbox {
         .mobile-menu {
             display: none;
         }
+                  .feature-icon {
+                      display: none;
+                  }
     }
  
     .mobile-menu {
@@ -548,7 +549,6 @@ input[type="checkbox"]:checked+.privacy-label .custom-checkbox {
     }
     
     @media screen and (min-width: 767px) {
-        
         .nav-list .list {
             display: flex;
             align-items: center;
@@ -622,7 +622,10 @@ input[type="checkbox"]:checked+.privacy-label .custom-checkbox {
                     display: none;
                     
                 }
-     .list {
+     .feature-icon {
+        display: none;
+     }
+                .list {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -785,6 +788,7 @@ input[type="checkbox"]:checked+.privacy-label .custom-checkbox {
 }
 
 
+
 .feature-title {
   margin: 0;
   font-size: 0; 
@@ -800,16 +804,17 @@ padding-bottom: 8px;
   display: block;
 }
 
-.paragraf {
+.paragraf-member {
   margin: 0;
   font-size: 0; 
   line-height: 1;
   color: #2e2f42;
   text-align: left; 
+  margin-left: 60px;
 }
 
 
-.paragraf::first-letter {
+.paragraf-member::first-letter {
   font-size: 16px; 
   font-weight: 400; 
   line-height: 1.3;
@@ -1110,9 +1115,6 @@ padding-bottom: 8px;
         
                 /* планшет */
                 @media screen and (min-width: 768px) {
-                    .feature-icon  {
-                            display: none;
-                        }
                     .hero {
                         background-color: #2E2F42;
                             color: #FFFFFF;
@@ -1310,6 +1312,7 @@ padding-bottom: 8px;
                             display: none;
                     
                         }
+                                              
                     .container {
                         max-width: 1158px;
                         padding: 0 15px;
@@ -1345,14 +1348,14 @@ padding-bottom: 8px;
                     
                                         .feature-icon {
                                             width: 264px;
-                                            height: 112px;
-                                            background-color: #f4f4fd;
-                                               border: 1px solid #8e8f99;
-                                            border-radius: 4px;
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            margin-bottom: 8px;
+                                                height: 112px;
+                                                background-color: #f4f4fd;
+                                                border: 1px solid #8e8f99;
+                                                border-radius: 4px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                margin-bottom: 8px;
                                         }
                     
                                         .feature-title {
