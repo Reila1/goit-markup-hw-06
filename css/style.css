@@ -367,7 +367,7 @@ input[type="checkbox"]:checked+.privacy-label .custom-checkbox {
 
 @media screen and (max-width: 767px) {
 .nowrap {
-        white-space: nowrap;
+        white-space: normal;
     }
     .paragraf {
             font-size: 16px;
